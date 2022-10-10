@@ -39,7 +39,6 @@ public class Main {
         double SumEvr = scanner2.nextDouble();
 
         Calc calc1 = new Calc();
-        calc1.getSumDol(SumEvr);
         System.out.println("Ваша сумма в долларах по курсу на 10.10.22 :   " + calc1.getSumDol(SumEvr));
 
     }
